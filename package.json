@@ -1,0 +1,26 @@
+{
+  "name": "bank-statement-xlsx-js",
+  "version": "1.0.0",
+  "description": "Zero-dependency JavaScript/ESM bank statement parser (Chase, Bank of America preamble, Wells Fargo headerless CSV, Amex sign inversion, OFX/QFX/QBO) with spreadsheet formula-injection sanitization.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "bank-statement",
+    "csv-to-excel",
+    "ofx-parser",
+    "qfx-parser",
+    "quickbooks",
+    "chase-csv",
+    "wells-fargo-csv",
+    "amex-csv",
+    "bookkeeping"
+  ],
+  "license": "MIT",
+  "homepage": "https://ledgerimporter.com"
+}
